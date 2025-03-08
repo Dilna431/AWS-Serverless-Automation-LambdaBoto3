@@ -7,9 +7,10 @@ Table of Contents
 3.  Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3
 4.  Assignment 4: 
    
-Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
-Objective:
-Automate the stopping and starting of EC2 instances based on tags using AWS Lambda and Boto3.
+Assignment 1: Automated Instance Management Using AWS Lambda and Boto3  
+
+Objective:  Automate the stopping and starting of EC2 instances based on tags using AWS Lambda and Boto3.
+
 Steps:  
 1. EC2 Setup:
    Navigate to the EC2 Dashboard and create two EC2 instances.
@@ -30,10 +31,12 @@ screenshot:
 
 ![image](https://github.com/user-attachments/assets/5bc57d86-5c8d-4345-af66-e5b2912e0308)
 
-Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
-Objective:
-Automate the deletion of files older than 30 days in an S3 bucket using AWS Lambda and Boto3.
-Steps:
+Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3  
+
+Objective:Automate the deletion of files older than 30 days in an S3 bucket using AWS Lambda and Boto3.  
+
+Steps:  
+
 1. S3 Setup:
 Create a new S3 bucket.
 Upload multiple files to this bucket, ensuring that some files are older than 30 days.
@@ -54,11 +57,12 @@ screenshot:
 
 
 
-Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3
-Objective:
-Automate the detection of S3 buckets that don't have server-side encryption enabled using AWS Lambda and Boto3.
+Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3  
 
-Steps:
+Objective: Automate the detection of S3 buckets that don't have server-side encryption enabled using AWS Lambda and Boto3.  
+
+Steps:  
+
 1. S3 Setup:
 Create a few S3 buckets.
 Ensure that some buckets don't have server-side encryption enabled.

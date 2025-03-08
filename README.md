@@ -1,4 +1,4 @@
-# AWS-Serverless-Automation-LambdaBoto3 : Python scripts for AWS Lambda automation
+# AWS-Serverless-Automation-LambdaBoto3
 This repository contains the solutions for AWS Lambda automation tasks using Boto3. The tasks cover automating EC2 instance management, S3 bucket cleanup, and monitoring unencrypted S3 buckets.
 
 Table of Contents

@@ -10,21 +10,25 @@ Table of Contents
 Assignment 1: Automated Instance Management Using AWS Lambda and Boto3
 Objective:
 Automate the stopping and starting of EC2 instances based on tags using AWS Lambda and Boto3.
-Steps:
+Steps:  
 1. EC2 Setup:
-Navigate to the EC2 Dashboard and create two EC2 instances.
-Tag the first instance with Key=Action, Value=Auto-Stop.
-Tag the second instance with Key=Action, Value=Auto-Start.
-2. Lambda IAM Role Setup:
+   Navigate to the EC2 Dashboard and create two EC2 instances.
+   Tag the first instance with Key=Action, Value=Auto-Stop.
+   Tag the second instance with Key=Action, Value=Auto-Start.
+3. Lambda IAM Role Setup:
 Create a new IAM role for Lambda with the AmazonEC2FullAccess policy.
 Attach this IAM role to the Lambda function you will create in the next steps.
-3. Lambda Function Creation:
+4. Lambda Function Creation:
 Create a new Lambda function with Python 3.x as the runtime.
 Attach the IAM role created above.
 Write the Python script to stop instances tagged with Auto-Stop and start instances tagged with Auto-Start. Python file is provided in the repository.
-4. Testing:
+5. Testing:
 Manually invoke the Lambda function.
 Check the EC2 Dashboard to confirm that the instance tagged Auto-Stop has stopped, and the one tagged Auto-Start has started.
+
+screenshot:
+
+![image](https://github.com/user-attachments/assets/5bc57d86-5c8d-4345-af66-e5b2912e0308)
 
 Assignment 2: Automated S3 Bucket Cleanup Using AWS Lambda and Boto3
 Objective:
@@ -44,8 +48,11 @@ Write the following Boto3 Python script to delete files older than 30 days.
 Manually invoke the Lambda function.
 Go to the S3 Dashboard and confirm that only files newer than 30 days remain.
 
-screenshots: 
-![image](https://github.com/user-attachments/assets/7c60155d-8584-43c3-a1e9-7d18d748130a)
+screenshot: 
+
+![image](https://github.com/user-attachments/assets/d96f1dd5-1709-4bc2-adc4-d35a54253c58)
+
+
 
 Assignment 3: Monitor Unencrypted S3 Buckets Using AWS Lambda and Boto3
 Objective:
@@ -65,6 +72,10 @@ Write the Boto3 Python script to detect unencrypted S3 buckets. Python file is a
 4. Testing:
 Manually invoke the Lambda function.
 Review the Lambda logs to identify the buckets without server-side encryption.
+
+screenshot:  
+
+![image](https://github.com/user-attachments/assets/c2c96467-89c2-4fde-87c0-10a8e620ab25)
 
 
 Conclusion
